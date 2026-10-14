@@ -120,7 +120,7 @@ export default function Avisos({ navigation }) {
             </TouchableOpacity>
 
             <TouchableOpacity
-              onPress={() => navigation.navigate('Home')}
+              onPress={() => navigation.navigate('Destaques')}
               activeOpacity={0.8}
             >
               <Text style={styles.menuTexto}>DESTAQUES</Text>

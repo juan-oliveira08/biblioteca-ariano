@@ -168,7 +168,7 @@ export default function Acervo({ navigation }) {
             ].map((item) => {
               const telas = {
                 AVISOS: 'Avisos',
-                DESTAQUES: 'Home',
+                DESTAQUES: 'Destaques',
                 ACERVO: 'Acervo',
                 'MINHAS RESERVAS': 'MinhasReservas',
                 'FEED LITERÁRIO': 'FeedLiterario',

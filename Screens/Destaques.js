@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-export default function Home({ navigation }) {
+export default function Destaques({ navigation }) {
   return (
     <View style={styles.container}>
 
@@ -49,7 +49,7 @@ export default function Home({ navigation }) {
 
             <TouchableOpacity
               activeOpacity={0.8}
-              onPress={() => navigation.navigate('Home')}
+              onPress={() => navigation.navigate('Destaques')}
             >
               <Text style={[styles.menuTexto, styles.menuAtivo]}>
                 DESTAQUES

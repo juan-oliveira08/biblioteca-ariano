@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Login from './Screens/Login';
 import Cadastro from './Screens/Cadastro';
-import Home from './Screens/Home';
+import Destaques from './Screens/Destaques';
 import Acervo from './Screens/Acervo';
 import Avisos from './Screens/Avisos';
 
@@ -30,8 +30,8 @@ export default function App() {
         />
 
         <Stack.Screen
-          name="Home"
-          component={Home}
+          name="Destaques"
+          component={Destaques}
           options={{
             title: 'Biblioteca',
             headerBackVisible: false,

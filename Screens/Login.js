@@ -58,7 +58,7 @@ export default function Login({ navigation }) {
           {/* BOTÃO ENTRAR */}
           <TouchableOpacity
             style={styles.botao}
-            onPress={() => navigation.navigate('Home')}
+            onPress={() => navigation.navigate('Destaques')}
             activeOpacity={0.8}
           >
             <Text style={styles.textoBotao}>ENTRAR</Text>
